@@ -1,10 +1,16 @@
 <?php
 
 use App\Models\Category;
+use App\Models\Nutritionist;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/nutricionistas', function () {
+    $nutritionists = Nutritionist::all();
+    return view('nutritionists.index', compact(['nutritionists']));
 });
 
 Route::middleware([
