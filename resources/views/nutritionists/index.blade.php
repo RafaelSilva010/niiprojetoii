@@ -1,6 +1,6 @@
 <x-guestLayout>
     <div class="max-w-4xl m-auto"> 
-        <p class="text-4xl">Nutricionistas</p>
+        <p class="text-8xl">Nutricionistas</p>
     </div>
 
     <div class="max-w-4xl m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
