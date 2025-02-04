@@ -4,6 +4,14 @@ use App\Models\Category;
 use App\Models\Nutritionist;
 use Illuminate\Support\Facades\Route;
 
+
+Route::get('/forum', function () {
+    return view('forum');
+})->name('forumrote');
+
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
