@@ -20,6 +20,13 @@
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
             </div>
 
+
+            <div>
+                <x-label for="Nome" value="{{__(key: 'Nome')}}" />
+                <x-input id="Nome" class="block mt-1 w-full" type="Nome" name="Nome" :value="old('Nome')" required autofocus autocomplete="Nome" />
+            </div>
+
+
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Password') }}" />
                 <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
@@ -42,6 +49,11 @@
                 <x-button class="ms-4">
                     {{ __('Log in') }}
                 </x-button>
+
+                <x-button class="ms-4">
+                    <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                </x-button>
+
             </div>
         </form>
     </x-authentication-card>

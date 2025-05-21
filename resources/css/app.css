@@ -5,3 +5,24 @@
 [x-cloak] {
     display: none;
 }
+
+.menu-container {
+    background-color:rgb(66, 131, 230); /* Fundo escuro translúcido */
+    padding: 20px; /* Espaçamento para os botões não ficarem grudados */
+     /* Cantos arredondados (opcional) */
+    display: inline-block; /* Para o fundo se ajustar ao tamanho do conteúdo */
+}
+
+.menu-button {
+    background-color: rgb(66, 131, 230);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.textoinicialpaginadeapresentacao {
+    margin: 5px 10px 20px 30px;
+}

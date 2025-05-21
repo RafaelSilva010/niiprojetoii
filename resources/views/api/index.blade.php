@@ -11,3 +11,8 @@
         </div>
     </div>
 </x-app-layout>
+
+
+<a href="{{ route('profiles.index', ['category' => $category->id]) }}" class="btn btn-primary btn-block">
+    {{ $category->name }}
+</a>

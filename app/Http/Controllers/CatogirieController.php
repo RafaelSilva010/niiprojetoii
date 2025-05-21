@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class CatogirieController extends Controller
 {
-    //
+    public function index()
+    {
+
+    }
 }
