@@ -51,7 +51,7 @@ use App\Http\Controllers\contactosController;
 use App\Http\Controllers\squizController;
 use App\Http\Controllers\question1Controller;
 use App\Http\Controllers\ProfileController;
-
+use App\Http\Controllers\resultadosController;
 
 
 Route::get('/banners', [BannerController::class, 'index']);
@@ -189,3 +189,5 @@ Route::get('/question1', [question1Controller::class, 'index'])->name('question1
 
 
 Route::post('/profile/upload', [ProfileController::class, 'upload'])->name('profile.upload');
+
+Route::get('/resultados', [resultadosController::class, 'index'])->name('resultados');
